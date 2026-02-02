@@ -19,7 +19,7 @@ This study provides a comprehensive evaluation of Large Language Models (LLMs) f
 
 ## 🏗️ Models Evaluated
 
-[cite_start]We evaluated 8 distinct LLMs using two different architectures[cite: 119, 129]:
+We evaluated 8 distinct LLMs using two different architectures:
 
 | Architecture | Model | Parameters | Context Window | Source |
 | :--- | :--- | :--- | :--- | :--- |
@@ -36,7 +36,7 @@ This study provides a comprehensive evaluation of Large Language Models (LLMs) f
 
 ## 📂 Datasets
 
-[cite_start]This study utilized five clinical benchmark datasets[cite: 92]. Due to data use agreements, we cannot provide the data directly in this repo. Please refer to the official sources below:
+This study utilized five clinical benchmark datasets. Due to data use agreements, we cannot provide the data directly in this repo. Please refer to the official sources below:
 
 1.  **2010 i2b2/VA Challenge:** [n2c2 DBMI](https://n2c2.dbmi.hms.harvard.edu)
 2.  **2018 n2c2 (Track 2):** [n2c2 DBMI](https://n2c2.dbmi.hms.harvard.edu)
