@@ -8,12 +8,12 @@
 
 ## 📄 Overview
 
-[cite_start]This repository contains the source code and experimental framework for the paper **"A Study of Large Language Models for Patient Information Extraction: Model Architecture, Fine-Tuning Strategy, and Multi-task Instruction Tuning"**[cite: 1].
+This repository contains the source code and experimental framework for the paper **"A Study of Large Language Models for Patient Information Extraction: Model Architecture, Fine-Tuning Strategy, and Multi-task Instruction Tuning"**.
 
 This study provides a comprehensive evaluation of Large Language Models (LLMs) for clinical **Concept Extraction (CE)** and **Relation Extraction (RE)**. We benchmarked widely used encoder-based and decoder-based models across five diverse clinical datasets, evaluating:
 * **Architectures:** Encoder-only (e.g., BERT, GatorTron) vs. Decoder-only (e.g., Llama 3.1, GatorTronLlama).
 * **Fine-tuning:** Traditional Full Fine-Tuning vs. Parameter-Efficient Fine-Tuning (PEFT/LoRA).
-* [cite_start]**Generalizability:** The impact of Multi-task Instruction Tuning on zero-shot and few-shot learning [cite: 29-31].
+* **Generalizability:** The impact of Multi-task Instruction Tuning on zero-shot and few-shot learning.
 
 ---
 
@@ -42,6 +42,6 @@ This study provides a comprehensive evaluation of Large Language Models (LLMs) f
 2.  **2018 n2c2 (Track 2):** [n2c2 DBMI](https://n2c2.dbmi.hms.harvard.edu)
 3.  **2022 n2c2 (Track 2):** [n2c2 DBMI](https://n2c2.dbmi.hms.harvard.edu)
 4.  **RadGraph:** [PhysioNet](https://physionet.org/content/radgraph/1.0.0/)
-5.  [cite_start]**UF Health (Internal):** Not publicly available due to patient privacy[cite: 303].
+5.  **UF Health (Internal):** Not publicly available due to patient privacy.
 
 ---
