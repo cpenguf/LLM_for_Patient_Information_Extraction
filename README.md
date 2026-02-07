@@ -49,7 +49,7 @@ This study utilized five clinical benchmark datasets. Due to data use agreements
 ## 🧪 Training with NeMo
 
 - Use `scripts/megatron_gpt_finetuning.py` with `configs/megatron_gpt_finetuning_config.yaml` for PEFT or full finetuning (LoRA, p-tuning, adapters) on Llama 3.1 or GatorTronLlama `.nemo` checkpoints.
-- Example launchers mirror the original `/orange/yonghui.wu/chengpeng/red/instruct_multitask` recipes: `scripts/train_llama31_lora.sh` and `scripts/train_gatortronllama_lora.sh`. Override `BASE_MODEL`, `TRAIN_FILE`, `VALID_FILE`, and `EXP_DIR` to point at your resources.
+- Example launchers recipes: `scripts/train_llama31_lora.sh` and `scripts/train_gatortronllama_lora.sh`. Override `BASE_MODEL`, `TRAIN_FILE`, `VALID_FILE`, and `EXP_DIR` to point at your resources.
 - Datasets should be JSONL with `input` and `output` fields; update batch sizes and parallelism flags (`TP`, `PP`, `NODES`, `GPUS`) to match your hardware.
 - GatorTron NER (ClinicalTransformerNER-based): `scripts/gatortron_ner_train.sh` and `scripts/gatortron_ner_infer.sh` wrap https://github.com/uf-hobi-informatics-lab/ClinicalTransformerNER. Set `CTNER_ROOT` to your clone and `MODEL_NAME` to the desired GatorTron checkpoint (e.g., `UFNLP/gatortron-base`).
 - GatorTron Relation Extraction (ClinicalTransformerRelationExtraction-based): `scripts/gatortron_re_train.sh` and `scripts/gatortron_re_infer.sh`. Set `CTRE_ROOT` to your clone of https://github.com/uf-hobi-informatics-lab/ClinicalTransformerRelationExtraction and `MODEL_NAME` to the desired GatorTron checkpoint.
