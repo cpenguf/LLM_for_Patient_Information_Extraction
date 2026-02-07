@@ -46,7 +46,7 @@ This study utilized five clinical benchmark datasets. Due to data use agreements
 
 ---
 
-## 🧪 Training with NeMo
+## 🧪 Training 
 
 - Use `scripts/megatron_gpt_finetuning.py` with `configs/megatron_gpt_finetuning_config.yaml` for PEFT or full finetuning (LoRA, p-tuning, adapters) on Llama 3.1 or GatorTronLlama `.nemo` checkpoints.
 - Example launchers recipes: `scripts/train_llama31_lora.sh` and `scripts/train_gatortronllama_lora.sh`. Override `BASE_MODEL`, `TRAIN_FILE`, `VALID_FILE`, and `EXP_DIR` to point at your resources.
